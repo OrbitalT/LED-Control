@@ -35,7 +35,7 @@ Jumper cables
 
 ## Setup (Hardware)
 
-![Wire Guild](https://raw.githubusercontent.com/PROFESSOREGGMAN/LED-Control/master/path/to/img.png)
+![Wire Guild](https://raw.githubusercontent.com/PROFESSOREGGMAN/LED-Control/master/img/wire.jpg)
 
 ## Setup (Software)
 
