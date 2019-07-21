@@ -39,49 +39,6 @@ Jumper cables
 
 ## Setup (Software)
 
-Make sure the Pi is updated and Rebooted
-
-Install apache2
-``
-sudo apt install apache2 -y
-``
-
-Give file ownership
-``
-sudo usermod -a -G www-data pi
-sudo chown -R -f www-data:www-data /var/www/html
-``
-
-Install PHP7
-``
-sudo apt install php7.3 php7.3-mbstring php7.3-mysql php7.3-curl php7.3-gd php7.3-curl php7.3-zip -y
-``
-
-Install PiGPIO
-``
-sudo apt install pigpio
-``
-
-Test to make sure it all works by running
-``
-sudo pigpiod //start
-
-pigs p 17 255 //red
-pigs p 22 255 //green
-pigs p 24 255 //blue
-``
-
-cd to html folder
-``
-cd /var/www/html/
-``
-
-This next part can be done 2 ways, 1st way is to use Filezilla and add the files to the html folder (recommended) the 2nd way is to clone the repository and move all the files from the command line.
-
-There are 2 folders 1v and 2v, 1v is a very compact way of controlling the LED strip with just 1 page of php but this didn't allow the use of IFTTT. 2v is a modified version but can be used with IFTTT.
-
-1v is easy to set up, all you need to do is move all 5 files to the html folder get the pi's ip and push on
-
 ## Contributing
 
 Pull requests are welcome. My code is not perfect and any updates that could improve it are welcome.
